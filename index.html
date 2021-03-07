@@ -41,7 +41,7 @@
     <!--<link rel="apple-touch-icon" href=".png" />-->
     <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
-    <link rel="stylesheet" type="text/css" href="style-mobile.8615b.css" />
+    <link rel="stylesheet" type="text/css" href="style-mobile.30ff5.css" />
     <link rel="icon" href="favicon.d71a9.ico" />
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
@@ -244,17 +244,23 @@
     ></canvas>
 
     <div id="splash">
+      <span class="progress-bar-outside">
+        <span id="loading-bar-outside"></span>
+      </span>
       <div class="progress-bar">
-        <span id="loading-icon"></span>
-        <span id="loading-circle"></span>
+        <span id="loading-bar-inside"></span>
+      </div>
+      <div id="loading-text">
+        ĐANG TẢI...
       </div>
     </div>
 
-    <script src="src/settings.d878a.js" charset="utf-8"></script>
-    <script src="main.705e9.js" charset="utf-8"></script>
+    <script src="src/settings.82109.js" charset="utf-8"></script>
+    <script src="main.cc0fc.js" charset="utf-8"></script>
 
     <script type="text/javascript">
       window.GOLD = true;
+      window.CONTROLLER_URL = `https://uno22.github.io/monopoly/controller`;
       (function () {
         // open web debugger console
         if (typeof VConsole !== "undefined") {
